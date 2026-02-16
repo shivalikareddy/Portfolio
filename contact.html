@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Shivalika Reddy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        .contact-container {
+            max-width: 800px;
+            margin: 60px auto;
+        }
+        .contact-container h2 {
+            font-size: 4rem;
+            margin-bottom: 20px;
+            text-transform: uppercase;
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 2px;
+        }
+        .contact-form {
+            display: grid;
+            gap: 20px;
+        }
+        .form-group {
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .form-group label {
+            font-weight: 400;
+            text-transform: uppercase;
+            font-size: 1.2rem;
+            font-family: 'Bebas Neue', cursive;
+            letter-spacing: 1px;
+        }
+        .form-group input, .form-group textarea {
+            padding: 15px;
+            border: 2px solid #000;
+            font-size: 1rem;
+            outline: none;
+        }
+        .form-group textarea {
+            height: 150px;
+            resize: vertical;
+        }
+        .submit-btn {
+            background-color: #000;
+            color: #fff;
+            padding: 15px 30px;
+            border: none;
+            cursor: pointer;
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.4rem;
+            letter-spacing: 1px;
+            transition: opacity 0.3s;
+            width: fit-content;
+        }
+        .submit-btn:hover {
+            opacity: 0.8;
+        }
+        .social-links {
+            margin-top: 60px;
+            display: flex;
+            gap: 20px;
+        }
+        .social-links a {
+            font-weight: 400;
+            text-transform: uppercase;
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.2rem;
+            letter-spacing: 1px;
+            border-bottom: 2px solid #000;
+        }
+
+        @media (max-width: 768px) {
+            .contact-container {
+                margin: 40px auto;
+            }
+            .contact-container h2 {
+                font-size: 2.5rem;
+            }
+            .submit-btn {
+                width: 100%;
+            }
+            .social-links {
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>SHIVALIKA<br>REDDY</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="contact-container">
+            <h2>Get in Touch</h2>
+            <p style="margin-bottom: 40px;">Have a project in mind? Or just want to say hi? Fill out the form below or reach out on social media.</p>
+            <div id="form-message-success" style="display: none; color: green; font-size: 1.2rem; font-weight: bold; margin-bottom: 20px;">
+                Thank you! Your message has been sent successfully.
+            </div>
+            
+            <form class="contact-form" action="https://formsubmit.co/shivalikare146@gmail.com" method="POST">
+                <!-- FormSubmit Configuration -->
+                <input type="hidden" name="_subject" value="New Portfolio Contact Form Submission!">
+                <input type="hidden" name="_captcha" value="false">
+                <input type="hidden" name="_template" value="table">
+                
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn" id="contact-submit">Send Message</button>
+            </form>
+
+            <div class="social-links">
+                <a href="https://www.instagram.com/shivalika.designs/" target="_blank">Instagram</a>
+                <a href="https://www.linkedin.com/in/shivalikareddy" target="_blank">LinkedIn</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shivalika Reddy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
