@@ -1,1 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Note | Shivalika Reddy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <style>
+        .project-hero {
+            padding: 80px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .project-hero h1 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 5rem;
+            line-height: 0.9;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        .project-meta {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px 20px;
+            margin-top: 40px;
+        }
+        .meta-item h5 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.4rem;
+            color: #666;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        .meta-item p {
+            font-weight: 600;
+        }
 
+        .case-study-section {
+            padding: 80px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        .section-header h2 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        .section-content h3 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px;
+        }
+        .section-content p {
+            font-size: 1rem;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .image-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background-color: #f5f5f5;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-hero h1 {
+                font-size: 4rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .case-study-section {
+                padding: 60px 0;
+            }
+            .section-header h2 {
+                position: static;
+                font-size: 2.5rem;
+            }
+            .project-meta {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+            .project-hero h1 {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>SHIVALIKA<br>REDDY</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="project-hero">
+            <h1>NOTE</h1>
+            <p style="font-size: 1.1rem; line-height: 1.6; color: #333; max-width: 800px;">A short film exploring lens techniques and visual storytelling.</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <h5>Role</h5>
+                    <p>Direction and Cinematography</p>
+                </div>
+                <div class="meta-item">
+                    <h5>Timeline</h5>
+                    <p>3 Days</p>
+                </div>
+                <div class="meta-item">
+                    <h5>Tools</h5>
+                    <p>Premiere Pro, After Effects</p>
+                </div>
+                <div class="meta-item">
+                    <h5>Collaborators</h5>
+                    <p>Katherine Costal, Alessandra Perreras, Cindy Lo</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film Section -->
+        <section class="case-study-section">
+            <div class="section-content" style="width: 100%;">
+                <!-- Video Section -->
+                <div style="background-color: #000; margin-bottom: 30px;">
+                    <video width="100%" controls controlsList="nodownload" oncontextmenu="return false;" playsinline preload="metadata" style="display: block; width: 100%; height: auto; max-height: 80vh;">
+                        <!-- Add your video source here -->
+                        <source src="" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <h3>CONCEPT</h3>
+                <p>This short film explores visual storytelling through lens variation, composition, and controlled lighting rather than dialogue. The narrative centers on two people meeting at a café, with emotion conveyed through body language, pacing, and environmental detail instead of spoken words. Designed as an experiment in lens techniques, the project integrates telephoto, macro, and wide-angle perspectives within a single sequence to shape mood and spatial perception. Shot on the Blackmagic Pocket Cinema Camera 6K, the approach focused on shaping available light and adapting to location, allowing framing, compression, and depth to drive the emotional tone of the encounter.</p>
+                
+                <h3>EQUIPMENT USED</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Black Magic Pocket Camera 6k</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Tripod Stand</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">5 in 1 Flex Fill</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">12in x 18in Black Flag</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Diffusion sheets ½ stop</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">6x6 Neewer LED Pannel Light</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Hoya 77 mm Polarizer filter</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Rokinon 14 mm f/2.8 Wide Lens </li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Rokinon 135 mm f/2.0 Telephoto Lens</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Canon 24-105 mm kit lens</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Canon EF 100 mm f/2.8 Macro Lens</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Portable Light Stand</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Small Table sized Light Stand</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Amaran F1 Light</li>
+                </ul>
+
+                <h3 style="margin-top: 40px;">PROCESS WORK</h3>
+                <div class="carousel-container" style="margin-top: 30px; position: relative; width: 100%; overflow: hidden;">
+                    <div class="carousel-track" style="display: flex; overflow-x: auto; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory;">
+                        <!-- Process Images -->
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess01.jpg" alt="Process Work 1" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess02.jpg" alt="Process Work 2" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess03.jpg" alt="Process Work 3" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess04.jpg" alt="Process Work 4" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess05.jpg" alt="Process Work 5" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess06.jpg" alt="Process Work 6" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/Noteprocess08.jpg" alt="Process Work 8" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess09.jpg" alt="Process Work 9" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess10.jpg" alt="Process Work 10" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Note/NoteProcess11.jpg" alt="Process Work 11" style="width: 100%; height: auto; display: block;">
+                        </div>
+                    </div>
+                    <div class="carousel-dots" style="display: flex; justify-content: center; gap: 8px; margin-top: 15px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Work -->
+        <div style="padding: 100px 0; text-align: center;">
+            <a href="work.html" style="font-family: 'Bebas Neue', cursive; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 1px; color: #000; display: inline-flex; align-items: center; gap: 10px;">
+                <span style="border-bottom: 2px solid #000; padding-bottom: 2px;">Back to Work</span>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shivalika Reddy. All rights reserved.</p>
+    </footer>
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
