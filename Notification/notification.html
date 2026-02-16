@@ -1,1 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notification | Shivalika Reddy</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="Css/style.css">
+    <style>
+        .project-hero {
+            padding: 80px 0;
+            border-bottom: 1px solid #eee;
+        }
+        .project-hero h1 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 5rem;
+            line-height: 0.9;
+            margin-bottom: 20px;
+            letter-spacing: 2px;
+        }
+        .project-meta {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 40px 20px;
+            margin-top: 40px;
+        }
+        .meta-item h5 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 1.4rem;
+            color: #666;
+            margin-bottom: 5px;
+            letter-spacing: 1px;
+        }
+        .meta-item p {
+            font-weight: 600;
+        }
 
+        .case-study-section {
+            padding: 80px 0;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            border-bottom: 1px solid #eee;
+        }
+        .section-header h2 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 3rem;
+            letter-spacing: 2px;
+            margin: 0;
+        }
+        .section-content h3 {
+            font-family: 'Bebas Neue', cursive;
+            font-size: 2rem;
+            letter-spacing: 1px;
+            margin-bottom: 10px; /* Reduced gap based on user request */
+        }
+        .section-content p {
+            font-size: 1rem; /* Standard body text size */
+            line-height: 1.6;
+            margin-bottom: 30px;
+            color: #333;
+        }
+        .image-placeholder {
+            width: 100%;
+            aspect-ratio: 16/9;
+            background-color: #f5f5f5;
+            margin-bottom: 40px;
+            border-radius: 4px;
+        }
+
+        @media (max-width: 1024px) {
+            .project-hero h1 {
+                font-size: 4rem;
+            }
+        }
+
+        @media (max-width: 768px) {
+            .case-study-section {
+                padding: 60px 0;
+            }
+            .section-header h2 {
+                position: static;
+                font-size: 2.5rem;
+            }
+            .project-meta {
+                grid-template-columns: repeat(2, 1fr);
+                gap: 20px;
+            }
+            .project-hero h1 {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <h1>SHIVALIKA<br>REDDY</h1>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="work.html">Work</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <div class="project-hero">
+            <h1>NOTIFICATION</h1>
+            <p style="font-size: 1.1rem; line-height: 1.6; color: #333; max-width: 800px;">A short film exploring practical and natural lighting.</p>
+            
+            <div class="project-meta">
+                <div class="meta-item">
+                    <h5>Role</h5>
+                    <p>Direction, Cinematography,  Editing</p>
+                </div>
+                <div class="meta-item">
+                    <h5>Timeline</h5>
+                    <p>2 Days</p>
+                </div>
+                <div class="meta-item">
+                    <h5>Tools</h5>
+                    <p>Premiere Pro</p>
+                </div>
+                <div class="meta-item">
+                    <h5>Collaborators</h5>
+                    <p>Independent</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Film Section -->
+        <section class="case-study-section">
+            <div class="section-content" style="width: 100%;">
+                <!-- Video Section -->
+                <div style="background-color: #000; margin-bottom: 30px;">
+                    <video width="100%" controls controlsList="nodownload" oncontextmenu="return false;" playsinline preload="metadata" style="display: block; width: 100%; height: auto; max-height: 80vh;">
+                        <source src="Assets/Images/Notification/NotificationVideo.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                </div>
+                
+                <h3>CONCEPT</h3>
+                <p>This short film follows a college student through an ordinary Thursday, using only natural and practical light to shape the narrative. Shot on a single camera with no added lighting, every source in the frame comes from the built environment, including desk lamps, hallway fixtures, screens, streetlights, and sunlight. The project explores how mood and emotion can be conveyed through minimal equipment and ambient conditions alone. Influenced by the framing and color sensibilities of Wes Anderson, the story builds quietly toward a small but meaningful shift when a long-awaited notification transforms an otherwise muted day.</p>
+                
+                <h3>EQUIPMENT USED</h3>
+                <ul style="list-style: none; padding-left: 0;">
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Canon EOS R8</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Tripod Stand</li>
+                    <li style="margin-bottom: 12px; border-left: 2px solid #000; padding-left: 15px;">Sekonic L-308X-U Analog Light meter </li>
+                </ul>
+
+                <h3 style="margin-top: 40px;">PROCESS WORK</h3>
+                <div class="carousel-container" style="margin-top: 30px; position: relative; width: 100%; overflow: hidden;">
+                    <div class="carousel-track" style="display: flex; overflow-x: auto; scroll-behavior: smooth; -webkit-overflow-scrolling: touch; scroll-snap-type: x mandatory;">
+                        <!-- Process Images -->
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess01.jpg" alt="Process Work 1" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess02.jpg" alt="Process Work 2" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess03.jpg" alt="Process Work 3" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess04.jpg" alt="Process Work 4" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess05.jpg" alt="Process Work 5" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess06.jpg" alt="Process Work 6" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess07.jpg" alt="Process Work 7" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess08.jpg" alt="Process Work 8" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess09.jpg" alt="Process Work 9" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess10.jpg" alt="Process Work 10" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess11.jpg" alt="Process Work 11" style="width: 100%; height: auto; display: block;">
+                        </div>
+                        <div class="carousel-slide" style="min-width: 100%; scroll-snap-align: center; flex: 0 0 100%;">
+                            <img src="Assets/Images/Notification/NotificationProcess12.jpg" alt="Process Work 12" style="width: 100%; height: auto; display: block;">
+                        </div>
+                    </div>
+                    <div class="carousel-dots" style="display: flex; justify-content: center; gap: 8px; margin-top: 15px;"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Back to Work -->
+        <div style="padding: 100px 0; text-align: center;">
+            <a href="work.html" style="font-family: 'Bebas Neue', cursive; font-size: 1.5rem; text-transform: uppercase; letter-spacing: 1px; color: #000; display: inline-flex; align-items: center; gap: 10px;">
+                <span style="border-bottom: 2px solid #000; padding-bottom: 2px;">Back to Work</span>
+            </a>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Shivalika Reddy. All rights reserved.</p>
+    </footer>
+
+    <script src="Js/script.js"></script>
+</body>
+</html>
